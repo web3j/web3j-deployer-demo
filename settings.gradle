@@ -1,0 +1,10 @@
+pluginManagement {
+    repositories {
+        mavenCentral()
+        mavenLocal()
+        jcenter()
+        gradlePluginPortal()
+    }
+}
+
+rootProject.name = 'DemoDeploy';
