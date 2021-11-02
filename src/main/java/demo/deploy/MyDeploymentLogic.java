@@ -45,7 +45,7 @@ public class MyDeploymentLogic {
         final BigDecimal ethBalance = Convert.fromWei(weiBalance.toString(), Convert.Unit.ETHER);
         System.out.println("Balance: " + ethBalance + " ETH");
 
-        return new Deployer(web3j, new FastRawTransactionManager(web3j, credentials), new DefaultGasProvider(), "network-1");
+        return new Deployer(web3j, new FastRawTransactionManager(web3j, credentials), new DefaultGasProvider(), "rinkeby");
     }
 
     @Deployable(order = 0)
