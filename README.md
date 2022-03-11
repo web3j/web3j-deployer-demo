@@ -15,6 +15,6 @@ smart contract, use the usual gradle commands:
 
 Thereafter, to run the deployment logic use the gradle deploy command, specifying the profile and package as needed:
 
-`./gradlew -q deploy -Pprofile=rinkeby -Ppackage=demo.deploy`
+`./gradlew -q deploy -Pprofile=rinkeby1 -Ppackage=demo.deploy`
 
 ![demo](terminal-demo.gif)
