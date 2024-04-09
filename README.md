@@ -1,3 +1,7 @@
+# Archive Notice
+
+> This project is no longer under active development and has been archived. The repository is kept for historical purposes and read-only access. No further updates or pull requests will be considered.
+
 # Demo repo showing how to use web3j-deployer
 
 The library [web3j-deployer](https://github.com/web3j/web3j-deployer) and Gradle
